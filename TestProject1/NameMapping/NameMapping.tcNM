@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{A7F2D2B0-12D0-44A6-9805-38060AE8A0D9}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{1AD2625E-13F6-4204-9B41-E0E16E007822}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{7F00A928-2232-45A2-8776-17A48C4A6F45}">
+								<Image FileName="432226912" Left="-11" Top="-11" Right="1931" Bottom="1031" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageHillsboroughCountyPublicLibr" Key="{D9BA877E-472F-40F1-BA51-CD22D8B1B279}">
+								<Image FileName="432226912" Left="0" Top="154" Right="1920" Bottom="1019" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hcplc.org/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{619DBAD7-57A4-4D0D-A494-AF08EF0B2506}">
+										<Image FileName="432226912" Left="0" Top="154" Right="1895" Bottom="493" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{77C66B12-25F3-4E2D-8A1C-A05EB48E1113}">
+										<Image FileName="-1598490413" Left="212" Top="282" Right="366" Bottom="342" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/account/get-a-card&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Get a Card&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/account/get-a-card&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/div/div/a[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/account/get-a-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageGetACard" Key="{D29FC280-0B72-465D-BD04-058B67FFE83D}">
+								<Image FileName="432226912" Left="0" Top="154" Right="1920" Bottom="1019" />
+								<TypeInfo Item0="{AB23561C-D216-45D8-B376-09B6D1C72197}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hcplc.org/account/get-a-card" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{6FBA15D4-A261-4900-940D-68013C66F563}">
+										<Image FileName="1644950940" Left="24" Top="543" Right="1239" Bottom="581" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[text()=&apos;Apply Online&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".column-span8 &gt; h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main&apos;]/div[2]/div/h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{86596D99-2712-4477-90E8-51E1A19201AA}">
+										<Image FileName="1191442148" Left="0" Top="154" Right="1895" Bottom="493" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="nav" Key="{6E018AE2-D141-4DDA-A6A9-AEFC6CFE69A4}">
+										<Image FileName="1191442148" Left="531" Top="154" Right="1895" Bottom="365" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Books &amp; More&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="nav[aria-label=&apos;Site navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;Site navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{B28599EE-98B8-40F2-80B1-942D4FBF4A0C}">
+										<Image FileName="-2081006589" Left="813" Top="154" Right="988" Bottom="352" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/books&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Books &amp; More&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/books&apos;]:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/books&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{81966E4D-4F7F-4211-AB00-847800D79B4C}">
+										<Image FileName="-2081006589" Left="826" Top="215" Right="975" Bottom="286" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Books &amp; More&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/books&apos;] &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav/ul/li/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/books&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link2" Key="{55BDF1CD-8367-47B8-8C96-D08A1B508C40}">
+										<Image FileName="182536772" Left="455" Top="851" Right="630" Bottom="880" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".std-list:nth-child(3) &gt; li:nth-child(1) &gt; a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main&apos;]/div[2]/div/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;https://hcplc.bibliocommons.com/&apos;)])[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageBooks" Key="{6255F157-E79C-4A0B-8DCD-43028FCE2590}">
+								<Image FileName="432226912" Left="0" Top="154" Right="1920" Bottom="1019" />
+								<TypeInfo Item0="{AB23561C-D216-45D8-B376-09B6D1C72197}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hcplc.org/books" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{0537049F-5D70-4BB3-985E-7BFF35431767}">
+										<Image FileName="-689270766" Left="129" Top="535" Right="360" Bottom="576" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="span[aria-level=&apos;1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[role=&apos;heading&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;Books &amp; More&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main&apos;]/p/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{9A494E05-02FE-433C-A587-5F54700BE130}">
+										<Image FileName="-1778323845" Left="0" Top="154" Right="1895" Bottom="493" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="nav" Key="{CE66B4F4-2B59-4576-BF84-5DB9B60D31E6}">
+										<Image FileName="-1778323845" Left="531" Top="154" Right="1895" Bottom="365" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Books &amp; More&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="nav[aria-label=&apos;Site navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;Site navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{B59EADB5-1C29-4FA4-A7E5-83B20739A6A3}">
+										<Image FileName="-45167763" Left="993" Top="154" Right="1168" Bottom="352" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/research&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Learning &amp; Research&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/research&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav/ul/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/research&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{EE80FA68-0DCB-49CD-8691-86F005C25187}">
+										<Image FileName="-45167763" Left="1006" Top="215" Right="1155" Bottom="286" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Learning &amp; Research&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/research&apos;] &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav/ul/li[2]/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/research&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageResearch" Key="{6D6B859E-85D3-4572-8B73-38C164164A8C}">
+								<Image FileName="432226912" Left="0" Top="154" Right="1920" Bottom="1019" />
+								<TypeInfo Item0="{AB23561C-D216-45D8-B376-09B6D1C72197}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hcplc.org/research" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{FA391A66-6913-48D9-A7EC-5F3858A43C39}">
+										<Image FileName="1065105180" Left="129" Top="535" Right="469" Bottom="576" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="span[aria-level=&apos;1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[role=&apos;heading&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;Learning &amp; Research&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main&apos;]/p/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{4AE081D3-6023-4797-BE7C-C444DFC6C88C}">
+										<Image FileName="-410112141" Left="0" Top="154" Right="1895" Bottom="493" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="nav" Key="{2B7962A8-766E-4EE7-A26C-391E72D85923}">
+										<Image FileName="-410112141" Left="531" Top="154" Right="1895" Bottom="365" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Books &amp; More&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="nav[aria-label=&apos;Site navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;Site navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{414C8998-19EB-4DC5-B6B9-B7F935FE5777}">
+										<Image FileName="-65952406" Left="1173" Top="154" Right="1348" Bottom="352" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/events&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Events &amp; Classes&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/events&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav/ul/li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/events&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{85D0D993-46CF-4209-9775-FFEC434C0649}">
+										<Image FileName="-65952406" Left="1187" Top="215" Right="1336" Bottom="286" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Events &amp; Classes&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/events&apos;] &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav/ul/li[3]/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/events&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageEvents" Key="{3EE86EB4-D340-4974-AE58-9185E7416F1F}">
+								<Image FileName="432226912" Left="0" Top="154" Right="1920" Bottom="1019" />
+								<TypeInfo Item0="{AB23561C-D216-45D8-B376-09B6D1C72197}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hcplc.org/events" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{E9EA6E36-F645-4D6A-A3F3-5D4A026073D7}">
+										<Image FileName="-54661447" Left="24" Top="651" Right="1871" Bottom="689" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[text()=&apos;Featured Events&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".column-span12:nth-child(3) &gt; h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main&apos;]/div[2]/h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{C7C3C0A3-A994-48D4-9C68-87CF9D09F70C}">
+										<Image FileName="305820309" Left="0" Top="154" Right="1895" Bottom="493" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="nav" Key="{255EA8D2-A702-435B-ADD8-4A629D65D8B4}">
+										<Image FileName="305820309" Left="531" Top="154" Right="1895" Bottom="365" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Books &amp; More&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="nav[aria-label=&apos;Site navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;Site navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{E6D67BF1-816E-4D7E-9590-198D8F3FB6C2}">
+										<Image FileName="305820309" Left="1354" Top="154" Right="1529" Bottom="352" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/services&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Services&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/services&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav/ul/li[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/services&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageServices" Key="{8B20C15C-B838-4AF2-BD64-0B1E58197895}">
+								<Image FileName="432226912" Left="0" Top="154" Right="1920" Bottom="1019" />
+								<TypeInfo Item0="{AB23561C-D216-45D8-B376-09B6D1C72197}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hcplc.org/services" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{99D0D1C7-0C4D-4A27-AC31-0946BD03319F}">
+										<Image FileName="-1938313737" Left="129" Top="535" Right="271" Bottom="576" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="span[aria-level=&apos;1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[role=&apos;heading&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;Services&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main&apos;]/p/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{3440BA2F-BA68-4D1C-B983-5A545748C185}">
+										<Image FileName="-1778297628" Left="0" Top="154" Right="1895" Bottom="493" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="nav" Key="{D0A8E123-5CBD-46EB-808C-B2434BECDD0C}">
+										<Image FileName="-1778297628" Left="531" Top="154" Right="1895" Bottom="365" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Books &amp; More&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="nav[aria-label=&apos;Site navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;Site navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{38CEB5F3-E139-4DD2-BEFE-41B2600B0F11}">
+										<Image FileName="-345504793" Left="1534" Top="154" Right="1709" Bottom="352" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/locations&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Locations&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/locations&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav/ul/li[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/locations&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLocations" Key="{1AC0A056-BDC9-401D-942F-1A3B668B9705}">
+								<Image FileName="432226912" Left="0" Top="154" Right="1920" Bottom="1019" />
+								<TypeInfo Item0="{AB23561C-D216-45D8-B376-09B6D1C72197}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hcplc.org/locations" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{D30D0B29-98B6-4C86-9C47-EB3C8C70D974}">
+										<Image FileName="-2132061288" Left="129" Top="535" Right="290" Bottom="576" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="span[aria-level=&apos;1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[role=&apos;heading&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;Locations&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main&apos;]/p/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{34C64D50-916E-4A8B-9093-8E0D0B34B934}">
+										<Image FileName="-284859687" Left="0" Top="154" Right="1895" Bottom="493" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="nav" Key="{26B9D522-56E1-40C5-A0E6-27A4026B8D14}">
+										<Image FileName="-284859687" Left="531" Top="154" Right="1895" Bottom="365" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Books &amp; More&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="nav[aria-label=&apos;Site navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[aria-label=&apos;Site navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{6FEE5D26-B8E4-4416-AE3D-FC3136240F46}">
+										<Image FileName="-284859687" Left="1715" Top="154" Right="1890" Bottom="352" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/about&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;About the Library&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/about&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav/ul/li[6]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/about&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{F1E91199-44B8-4C2B-A046-774C6BF39D49}">
+										<Image FileName="-284859687" Left="1728" Top="215" Right="1877" Bottom="286" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;About the Library&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/about&apos;] &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/nav/ul/li[6]/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/about&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAbout" Key="{F967E5B4-0565-46D9-88B9-A29C16FBCA04}">
+								<Image FileName="432226912" Left="0" Top="154" Right="1920" Bottom="1019" />
+								<TypeInfo Item0="{AB23561C-D216-45D8-B376-09B6D1C72197}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hcplc.org/about" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{943DB137-33D2-4239-AE79-064FB1758F02}">
+										<Image FileName="-794830476" Left="129" Top="535" Right="1070" Bottom="576" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;About the Hillsborough County Public Library Cooperative&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="span[aria-level=&apos;1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[role=&apos;heading&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;main&apos;]/p/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{66EA48CE-1710-4722-A5AD-1294022E07A0}">
+										<Image FileName="1511740842" Left="0" Top="154" Right="1895" Bottom="493" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;My Account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{802CF6AB-C5CB-4C8C-AFFA-9E41A5511911}">
+										<Image FileName="1511740842" Left="212" Top="282" Right="366" Bottom="342" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/account/get-a-card&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Get a Card&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/account/get-a-card&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;container&apos;]/header/div/div/div/a[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/account/get-a-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageHcplcBibliocommonsCom" Key="{DA8417E2-3D0E-42D1-8277-DB6D0B4F1F49}">
+								<Image FileName="432226912" Left="0" Top="154" Right="1920" Bottom="1019" />
+								<TypeInfo Item0="{AB23561C-D216-45D8-B376-09B6D1C72197}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formDesktopSearchForm" Key="{D1C645F7-CC14-4DA7-91F6-3543FEDA5AAE}">
+										<Image FileName="1952684180" Left="670" Top="273" Right="1873" Bottom="325" />
+										<Selectors>
+											<Selector>
+												<Value Value="#desktop_search_form" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;desktop_search_form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;by&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;desktop_search_form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;header_search&apos;]/div/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="searchboxSearchBoxId3kogjotg1f6u" Key="{7EF5F173-238A-419E-8EA5-395CA9DF1A98}">
+										<Image FileName="1952684180" Left="1255" Top="273" Right="1806" Bottom="324" />
+										<TypeInfo Item0="{D5429676-E7AF-4610-AA0C-2D33998D6EFE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#search_box_id_3kogjotg1f6ui05jsbrvm0kppg" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;q&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=(//label[text()=&apos;Enter search query&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;search_box_id_3kogjotg1f6ui05jsbrvm0kppg&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;desktop_search_form&apos;]/div[2]/span/input" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{0D455482-F74F-4E24-B326-2B012978DC91}">
+										<Image FileName="-224064344" Left="1824" Top="284" Right="1853" Bottom="312" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".input-group:nth-child(2) [type=&apos;submit&apos;] &gt; [aria-hidden=&apos;true&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;desktop_search_form&apos;]/div[2]/span[2]/button/i" />
+											</Selector>
+											<Selector>
+												<Value Value="//button/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionContent" Key="{A325C815-3471-44A8-BE42-828FBAF47755}">
+										<Image FileName="661122842" Left="0" Top="482" Right="1895" Bottom="5188" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;content&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;react-root&apos;]/div/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{58DA6D3E-F69F-4058-9D59-CCFF6F975337}">
+										<Image FileName="661122842" Left="356" Top="504" Right="619" Bottom="561" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//strong[text()=&apos;Harry Potter&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="strong" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;content&apos;]/div/div/div/div/div/div/div/div/h1/strong" />
+											</Selector>
+											<Selector>
+												<Value Value="//strong" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{F89845F5-30F4-4639-BD22-4B30FE7507AB}">
+										<Image FileName="620333060" Left="1489" Top="154" Right="1584" Bottom="223" />
+										<Selectors>
+											<Selector>
+												<Value Value=".hidden-xs &gt; [data-js=&apos;header_help_link&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(.,&apos;Help&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;react-root&apos;]/div/div[2]/div/div/div/div/div/div/div/div/div[3]/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;https://help.bibliocommons.com/?_ga=2.123464971.1601972575.1649071605-759263398.1647006765&apos;)]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{F891BC29-E924-4130-8584-BCE7AC21ACF2}">
+										<Image FileName="620333060" Left="1531" Top="170" Right="1576" Bottom="198" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".hidden-xs &gt; [data-js=&apos;header_help_link&apos;] &gt; [aria-hidden=&apos;true&apos;]:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//span[contains(.,&apos;Help&apos;)])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;react-root&apos;]/div/div[2]/div/div/div/div/div/div/div/div/div[3]/div/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;https://help.bibliocommons.com&apos;)])[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCatalog" Key="{50CCA0DF-A119-45DD-8784-81B02D2A5AD7}">
+										<Image FileName="46015161" Left="527" Top="390" Right="1391" Bottom="444" />
+										<TypeInfo Item0="{9370A97B-7795-4123-A5E8-A9D48FDFBD72}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Catalog&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#catalogInput" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;catalogInput&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div[@id=&apos;catalogSearchPanel&apos;]/form//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCatalogsubmit" Key="{D3330E0B-896D-4590-8A89-25AA27D56B37}">
+										<Image FileName="608301301" Left="1331" Top="390" Right="1391" Bottom="446" />
+										<TypeInfo Item0="{2D8E63B7-1EDB-4851-998D-EEAABA851194}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#catalogSubmit" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div[@id=&apos;catalogSearchPanel&apos;]/form//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div[@id=&apos;catalogSearchPanel&apos;]/form//button[contains(@class, &apos;button1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;catalogSearch&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//div[@id=&apos;multisrch-form-container&apos;]/div[@id=&apos;catalogSearchPanel&apos;]/form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageCatalogAccountHelpHelpWithHo" Key="{CE12B65E-8483-4339-84A7-D8D033312EDB}">
+								<Image FileName="980047069" Left="11" Top="88" Right="1148" Bottom="1009" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://help.bibliocommons.com/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="articlePost5" Key="{8B9E46EB-A0A8-4A45-BF50-34AE4DC12E65}">
+										<Image FileName="980047069" Left="526" Top="272" Right="1030" Bottom="756" />
+										<Selectors>
+											<Selector>
+												<Value Value="#post-5" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Catalog and Account Help&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[@id=&apos;post-5&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content&apos;]/article" />
+											</Selector>
+											<Selector>
+												<Value Value="//article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{0AC58499-02DF-47D6-917D-7D52DCFB8FA6}">
+										<Image FileName="980047069" Left="526" Top="272" Right="1030" Bottom="320" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Catalog and Account Help&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".entry-header" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[@id=&apos;post-5&apos;]/header" />
+											</Selector>
+											<Selector>
+												<Value Value="//article/header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{1C1842F4-2A6F-4353-A7E7-49129C10138B}">
+										<Image FileName="980047069" Left="526" Top="272" Right="1030" Bottom="320" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[text()=&apos;Catalog and Account Help&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".entry-title" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[@id=&apos;post-5&apos;]/header/h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow2" Key="{E1D383E1-DFBC-44D8-9A47-947F645AB727}">
+								<Image FileName="-1691375583" Left="0" Top="0" Right="1158" Bottom="1020" />
+								<TypeInfo Item0="{12AB1E20-64C2-404D-9B71-83DF4703BDB7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageBpmMyWorkPool" Key="{2BAFA552-30B7-4F30-9CB7-14AAE4C9C5EB}">
+								<Image FileName="-803447846" Left="0" Top="106" Right="1920" Bottom="1024" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://redwood-uat.ucop.edu/Redwood*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeMenuul" Key="{E6459922-201D-4A77-BB26-A03526B4D5E3}">
+										<Image FileName="-803447846" Left="6" Top="170" Right="1718" Bottom="209" />
+										<Selectors>
+											<Selector>
+												<Value Value="#MenuUl" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Person&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;page-sidebar-menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cssmenu&apos;]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMyWorkPool" Key="{23C96AF7-3F1B-4C9E-9D7A-1657C180C11F}">
+										<Image FileName="-803447846" Left="1124" Top="204" Right="1410" Bottom="651" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[10]/ul[contains(@class, &apos;sub-menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cssmenu&apos;]//li[10]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[10]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMyWorkPool2" Key="{DFD3EE92-F2A5-4ACE-B1A1-F400BDC70570}">
+										<Image FileName="-803447846" Left="1127" Top="206" Right="1408" Bottom="238" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;My Work Pool&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[10]/ul/li[contains(@class, &apos;menuItem&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMyWorkPool" Key="{CA917E9B-4250-4423-AE42-3FD29F5A6408}">
+										<Image FileName="-803447846" Left="1127" Top="206" Right="1408" Bottom="238" />
+										<TypeInfo Item0="{1865B687-B567-4D40-A6A1-D921E32C574F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;My Work Pool&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cssmenu&apos;]//li[10]/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[10]/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePnlworkpooltab" Key="{FACBBB5C-E2FB-4A9F-A3C8-35DCE23172ED}">
+										<Image FileName="497231357" Left="494" Top="591" Right="1893" Bottom="4732" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pnlWorkPoolTab" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@name=&apos;pnlWorkPoolTab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Verify and Determine if Ready to Transmit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;CenterMiddle&apos;]//tr[2]/td/ul[@role=&apos;menu&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;CenterMiddle&apos;]//tr[2]/td/ul[contains(@class, &apos;s-ulControlPanelbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MiddleSplitter&apos;]/div[@id=&apos;CenterMiddle&apos;]/div[@id=&apos;CenterSplitter&apos;]/div[@id=&apos;ContentSplitter&apos;]//tr[2]/td/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonExportToExcel" Key="{FF1F9FF0-7D6E-4E87-AFBC-D6C5DC691081}">
+										<Image FileName="497231357" Left="504" Top="633" Right="628" Bottom="663" />
+										<TypeInfo Item0="{145EEA67-0EEC-4D16-93D0-298718A93358}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#btnExportToExcel" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wfmBPMMyBasketMaintenance1&apos;]//table/tbody/tr/td/input[@name=&apos;btnExportToExcel&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wfmBPMMyBasketMaintenance1&apos;]//table/tbody/tr/td/input[@value=&apos;Export To Excel&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wfmBPMMyBasketMaintenance1&apos;]//table/tbody/tr/td/input[contains(@class, &apos;btnColumnsToExport_Click_button&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePnlmain" Key="{C80FB86D-C0D0-4583-A6FD-53D6183BBF11}">
+										<Image FileName="-133332090" Left="494" Top="248" Right="1893" Bottom="585" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[@name=&apos;pnlMain&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Search Criteria&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;CenterMiddle&apos;]//tr/td/ul[@role=&apos;menu&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;CenterMiddle&apos;]//tr/td/ul[contains(@class, &apos;s-ulControlPanelbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;wfmBPMMyBasketMaintenance1&apos;]//tr/td/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MiddleSplitter&apos;]/div[@id=&apos;CenterMiddle&apos;]/div[@id=&apos;CenterSplitter&apos;]/div[@id=&apos;ContentSplitter&apos;]//tr/td/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectProcessName" Key="{CE9B1EE4-E420-4E28-8541-54FC56515185}">
+										<Image FileName="-133332090" Left="761" Top="284" Right="1266" Bottom="312" />
+										<TypeInfo Item0="{1FBE0C0A-381B-4397-8969-A6006AA15DF7}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[.=&apos;Process Name :&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ddlCascBPMProcesses" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MiddleSplitter&apos;]/div[@id=&apos;CenterMiddle&apos;]/div/div/div[@id=&apos;wfmBPMMyBasketMaintenance1&apos;]//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxTxtpersonid" Key="{F19CFF92-A361-4463-AABD-ED03BC9D3C59}">
+										<Image FileName="-133332090" Left="761" Top="315" Right="939" Bottom="344" />
+										<TypeInfo Item0="{D5429676-E7AF-4610-AA0C-2D33998D6EFE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#txtPersonId" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;txtPersonId&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;CenterMiddle&apos;]//table/tbody/tr[2]/td[2]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;CenterMiddle&apos;]//table/tbody/tr[2]/td[2]/input[contains(@class, &apos;s-textbox&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;CenterMiddle&apos;]//table/tbody/tr/td/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{1AD2625E-13F6-4204-9B41-E0E16E007822}">
+			<Child Name="BrowserWindow" Owner="{7F00A928-2232-45A2-8776-17A48C4A6F45}" />
+			<Child Name="pageHillsboroughCountyPublicLibr" Owner="{D9BA877E-472F-40F1-BA51-CD22D8B1B279}">
+				<Child Name="header" Owner="{619DBAD7-57A4-4D0D-A494-AF08EF0B2506}">
+					<Child Name="link" Owner="{77C66B12-25F3-4E2D-8A1C-A05EB48E1113}" />
+				</Child>
+			</Child>
+			<Child Name="pageGetACard" Owner="{D29FC280-0B72-465D-BD04-058B67FFE83D}">
+				<Child Name="textnode" Owner="{6FBA15D4-A261-4900-940D-68013C66F563}" />
+				<Child Name="header" Owner="{86596D99-2712-4477-90E8-51E1A19201AA}">
+					<Child Name="nav" Owner="{6E018AE2-D141-4DDA-A6A9-AEFC6CFE69A4}">
+						<Child Name="link" Owner="{B28599EE-98B8-40F2-80B1-942D4FBF4A0C}">
+							<Child Name="textnode2" Owner="{81966E4D-4F7F-4211-AB00-847800D79B4C}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="link2" Owner="{55BDF1CD-8367-47B8-8C96-D08A1B508C40}" />
+			</Child>
+			<Child Name="pageBooks" Owner="{6255F157-E79C-4A0B-8DCD-43028FCE2590}">
+				<Child Name="textnode" Owner="{0537049F-5D70-4BB3-985E-7BFF35431767}" />
+				<Child Name="header" Owner="{9A494E05-02FE-433C-A587-5F54700BE130}">
+					<Child Name="nav" Owner="{CE66B4F4-2B59-4576-BF84-5DB9B60D31E6}">
+						<Child Name="link" Owner="{B59EADB5-1C29-4FA4-A7E5-83B20739A6A3}">
+							<Child Name="textnode2" Owner="{EE80FA68-0DCB-49CD-8691-86F005C25187}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageResearch" Owner="{6D6B859E-85D3-4572-8B73-38C164164A8C}">
+				<Child Name="textnode" Owner="{FA391A66-6913-48D9-A7EC-5F3858A43C39}" />
+				<Child Name="header" Owner="{4AE081D3-6023-4797-BE7C-C444DFC6C88C}">
+					<Child Name="nav" Owner="{2B7962A8-766E-4EE7-A26C-391E72D85923}">
+						<Child Name="link" Owner="{414C8998-19EB-4DC5-B6B9-B7F935FE5777}">
+							<Child Name="textnode2" Owner="{85D0D993-46CF-4209-9775-FFEC434C0649}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageEvents" Owner="{3EE86EB4-D340-4974-AE58-9185E7416F1F}">
+				<Child Name="textnode" Owner="{E9EA6E36-F645-4D6A-A3F3-5D4A026073D7}" />
+				<Child Name="header" Owner="{C7C3C0A3-A994-48D4-9C68-87CF9D09F70C}">
+					<Child Name="nav" Owner="{255EA8D2-A702-435B-ADD8-4A629D65D8B4}">
+						<Child Name="link" Owner="{E6D67BF1-816E-4D7E-9590-198D8F3FB6C2}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageServices" Owner="{8B20C15C-B838-4AF2-BD64-0B1E58197895}">
+				<Child Name="textnode" Owner="{99D0D1C7-0C4D-4A27-AC31-0946BD03319F}" />
+				<Child Name="header" Owner="{3440BA2F-BA68-4D1C-B983-5A545748C185}">
+					<Child Name="nav" Owner="{D0A8E123-5CBD-46EB-808C-B2434BECDD0C}">
+						<Child Name="link" Owner="{38CEB5F3-E139-4DD2-BEFE-41B2600B0F11}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageLocations" Owner="{1AC0A056-BDC9-401D-942F-1A3B668B9705}">
+				<Child Name="textnode" Owner="{D30D0B29-98B6-4C86-9C47-EB3C8C70D974}" />
+				<Child Name="header" Owner="{34C64D50-916E-4A8B-9093-8E0D0B34B934}">
+					<Child Name="nav" Owner="{26B9D522-56E1-40C5-A0E6-27A4026B8D14}">
+						<Child Name="link" Owner="{6FEE5D26-B8E4-4416-AE3D-FC3136240F46}">
+							<Child Name="textnode2" Owner="{F1E91199-44B8-4C2B-A046-774C6BF39D49}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageAbout" Owner="{F967E5B4-0565-46D9-88B9-A29C16FBCA04}">
+				<Child Name="textnode" Owner="{943DB137-33D2-4239-AE79-064FB1758F02}" />
+				<Child Name="header" Owner="{66EA48CE-1710-4722-A5AD-1294022E07A0}">
+					<Child Name="link" Owner="{802CF6AB-C5CB-4C8C-AFFA-9E41A5511911}" />
+				</Child>
+			</Child>
+			<Child Name="pageHcplcBibliocommonsCom" Owner="{DA8417E2-3D0E-42D1-8277-DB6D0B4F1F49}">
+				<Child Name="formDesktopSearchForm" Owner="{D1C645F7-CC14-4DA7-91F6-3543FEDA5AAE}">
+					<Child Name="searchboxSearchBoxId3kogjotg1f6u" Owner="{7EF5F173-238A-419E-8EA5-395CA9DF1A98}" />
+					<Child Name="textnode" Owner="{0D455482-F74F-4E24-B326-2B012978DC91}" />
+					<Child Name="textboxCatalog" Owner="{50CCA0DF-A119-45DD-8784-81B02D2A5AD7}" />
+					<Child Name="buttonCatalogsubmit" Owner="{D3330E0B-896D-4590-8A89-25AA27D56B37}" />
+				</Child>
+				<Child Name="sectionContent" Owner="{A325C815-3471-44A8-BE42-828FBAF47755}">
+					<Child Name="textnode2" Owner="{58DA6D3E-F69F-4058-9D59-CCFF6F975337}" />
+				</Child>
+				<Child Name="link" Owner="{F89845F5-30F4-4639-BD22-4B30FE7507AB}">
+					<Child Name="textnode3" Owner="{F891BC29-E924-4130-8584-BCE7AC21ACF2}" />
+				</Child>
+			</Child>
+			<Child Name="pageCatalogAccountHelpHelpWithHo" Owner="{CE12B65E-8483-4339-84A7-D8D033312EDB}">
+				<Child Name="articlePost5" Owner="{8B9E46EB-A0A8-4A45-BF50-34AE4DC12E65}">
+					<Child Name="header" Owner="{0AC58499-02DF-47D6-917D-7D52DCFB8FA6}">
+						<Child Name="textnode" Owner="{1C1842F4-2A6F-4353-A7E7-49129C10138B}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow2" Owner="{E1D383E1-DFBC-44D8-9A47-947F645AB727}" />
+			<Child Name="pageBpmMyWorkPool" Owner="{2BAFA552-30B7-4F30-9CB7-14AAE4C9C5EB}">
+				<Child Name="textnodeMenuul" Owner="{E6459922-201D-4A77-BB26-A03526B4D5E3}">
+					<Child Name="textnodeMyWorkPool" Owner="{23C96AF7-3F1B-4C9E-9D7A-1657C180C11F}">
+						<Child Name="textnodeMyWorkPool2" Owner="{DFD3EE92-F2A5-4ACE-B1A1-F400BDC70570}">
+							<Child Name="linkMyWorkPool" Owner="{CA917E9B-4250-4423-AE42-3FD29F5A6408}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="textnodePnlworkpooltab" Owner="{FACBBB5C-E2FB-4A9F-A3C8-35DCE23172ED}">
+					<Child Name="buttonExportToExcel" Owner="{FF1F9FF0-7D6E-4E87-AFBC-D6C5DC691081}" />
+				</Child>
+				<Child Name="textnodePnlmain" Owner="{C80FB86D-C0D0-4583-A6FD-53D6183BBF11}">
+					<Child Name="selectProcessName" Owner="{CE9B1EE4-E420-4E28-8541-54FC56515185}" />
+					<Child Name="textboxTxtpersonid" Owner="{F19CFF92-A361-4463-AABD-ED03BC9D3C59}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

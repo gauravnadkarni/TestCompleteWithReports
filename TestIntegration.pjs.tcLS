@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{21026b29-0824-4646-89e5-82b7c36862fb}">
+				<Prp name="relpath" type="S" value="TestProject1\TestProject1.mds.tcLS"/>
+			</Node>
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{21026B29-0824-4646-89E5-82B7C36862FB}"/>
+			</Node>
+			<Node name="{fdc7bcc4-bf73-4d86-b3fe-d5061a766dd4}">
+				<Prp name="relpath" type="S" value="TestProject2\TestProject2.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{ADA40F73-4AD2-4C8D-8C5D-98B4AFF77B95}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav4">
+					<Node name="var0">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="strTestCaseHTMLFilePath"/>
+					</Node>
+					<Node name="var1">
+						<Node name="value">
+							<Prp name="intvalue" type="I" value="0"/>
+						</Node>
+						<Prp name="name" type="S" value="totalTCCount"/>
+					</Node>
+					<Node name="var2">
+						<Node name="value">
+							<Prp name="intvalue" type="I" value="0"/>
+						</Node>
+						<Prp name="name" type="S" value="passTCCount"/>
+					</Node>
+					<Node name="var3">
+						<Node name="value">
+							<Prp name="intvalue" type="I" value="0"/>
+						</Node>
+						<Prp name="name" type="S" value="failTCCount"/>
+					</Node>
+					<Node name="var4">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="exeStartTime"/>
+					</Node>
+					<Node name="var5">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="gPictureLogPath"/>
+					</Node>
+					<Node name="var6">
+						<Prp name="name" type="S" value="TestData1"/>
+					</Node>
+					<Node name="var7">
+						<Prp name="name" type="S" value="TestData2"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="4"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

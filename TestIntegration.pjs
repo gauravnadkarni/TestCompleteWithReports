@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{F1E9F947-BD87-4C3D-8103-3D28D94EFA22}">
+	<children>
+		<child name="TestProject1" key="{21026B29-0824-4646-89E5-82B7C36862FB}" path="TestProject1\TestProject1.mds" />
+		<child name="TestProject2" key="{FDC7BCC4-BF73-4D86-B3FE-D5061A766DD4}" path="TestProject2\TestProject2.mds" />
+	</children>
+	<testItems key="{B063C967-1FC3-4622-9E8F-202BCCE9BB54}">
+		<children>
+			<testItem key="{21026B29-0824-4646-89E5-82B7C36862FB}" enabled="True" timeout="0" stopOnError="False" description="" />
+			<testItem key="{FDC7BCC4-BF73-4D86-B3FE-D5061A766DD4}" enabled="True" timeout="0" stopOnError="False" description="" />
+		</children>
+	</testItems>
+	<variables key="{DCAD1272-DE86-4C5F-97A3-1D6FDCD3492F}">
+		<data Version="4">
+			<Items>
+				<Variable Name="strTestCaseHTMLFilePath" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="totalTCCount" Type="Integer" Local="True">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="passTCCount" Type="Integer" Local="True">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="failTCCount" Type="Integer" Local="True">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="exeStartTime" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="gPictureLogPath" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="TestData1" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="TestProject1\Stores\Files\TestData1.xlsx" Table="Sheet1$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+				<Variable Name="TestData2" Type="DB Table" Local="False">
+					<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+						<ConnectionInfo FileName="TestProject2\Stores\Files\TestData2.xlsx" Table="Sheet1$" HasColumnNames="True" />
+					</DefValue>
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<analysis key="{C3603C6A-92F0-43E1-A29B-1491A66A8AA1}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

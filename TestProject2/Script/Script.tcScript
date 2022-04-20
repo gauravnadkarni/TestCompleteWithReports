@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="CustomFunctions" key="{CF8D6F25-A531-4EC1-AFAF-1DBA31BDBD5F}" path="..\..\TestProject1\Script\CustomFunctions.js" />
+		<child name="Unit1" key="{34CDD3E8-B85C-4A6B-BAD7-842DC925E21A}" path="..\..\TestProject1\Script\Unit1.js" />
+	</children>
+</Root>
